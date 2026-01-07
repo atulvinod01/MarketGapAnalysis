@@ -25,15 +25,15 @@ Market Gap Detector is a powerful NLP-powered tool that analyzes online discussi
 
 ## ✨ Features
 
-- **🔬 Sentiment Analysis** — Uses HuggingFace transformers with rule-based fallback
-- **🔍 Pain Point Extraction** — TF-IDF weighted bigram analysis on negative comments
-- **⚡ Concurrent Fetching** — 10-20x faster data ingestion with ThreadPoolExecutor
-- **📊 Interactive Dashboard** — Real-time visualizations with Plotly
-- **📥 Export Results** — Download analysis as CSV for further processing
+- ** Sentiment Analysis** — Uses HuggingFace transformers with rule-based fallback
+- ** Pain Point Extraction** — TF-IDF weighted bigram analysis on negative comments
+- ** Concurrent Fetching** — 10-20x faster data ingestion with ThreadPoolExecutor
+- ** Interactive Dashboard** — Real-time visualizations with Plotly
+- ** Export Results** — Download analysis as CSV for further processing
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -64,7 +64,7 @@ The app will open at `http://localhost:8501`
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Dashboard | Analysis Results |
 |-----------|------------------|
@@ -72,7 +72,7 @@ The app will open at `http://localhost:8501`
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
@@ -89,7 +89,7 @@ The app will open at `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 market-gap-detector/
@@ -102,7 +102,7 @@ market-gap-detector/
 
 ---
 
-## 🛠️ Usage
+##  Usage
 
 ### As a Streamlit App
 Simply run `streamlit run hn_app.py` and use the interactive dashboard.
@@ -132,7 +132,7 @@ print(f"Top Pain Points: {pain_points[:5]}")
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 1. **Startup Ideation** — Find pain points in online communities
 2. **Product Development** — Discover feature gaps in existing tools
@@ -141,7 +141,7 @@ print(f"Top Pain Points: {pain_points[:5]}")
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
@@ -151,13 +151,13 @@ print(f"Top Pain Points: {pain_points[:5]}")
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -168,7 +168,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 5. Open a Pull Request
 
 ---
-
-<p align="center">
-  Made with ❤️ for discovering market opportunities
-</p>
